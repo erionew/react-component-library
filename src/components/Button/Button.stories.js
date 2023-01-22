@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-
+import cart from './shopping-cart.png'
 import Button from './Button';
    
     
@@ -226,9 +226,14 @@ storiesOf('Button', module)
 
     //---------- Icon Button ----------//
 
-    .add('Icon Button', () => <Button 
-        label='Icon Button'
+    .add('Icon + Text Button', () => <Button 
+        label='Icon + Text Button'
         type='primary-disabled'
-        icon='h'
+        icon={cart}
+    />)
+    .add('Only Icon Button', () => <Button 
+        label=''
+        type='primary-disbled'
+        icon={cart}
     />)
 

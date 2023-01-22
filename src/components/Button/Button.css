@@ -5,6 +5,8 @@ button{
     color: white;
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }    
 
 .button-large{
@@ -98,4 +100,10 @@ button{
 .button-default-disabled{
     background-color: #F6F7F8;
     color: #13161A;
+}
+
+.icon{
+    height: 20px;
+    padding: 2px 0;
+    margin-right: 10px;
 }
