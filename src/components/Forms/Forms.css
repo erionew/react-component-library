@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+.outlined{
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+.filled{
+    background-color: rgb(245, 245, 245);
+    border: none;
+}
+
+input, select{
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+}
+
+input::placeholder{
+    color: rgb(169, 169, 169);
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.input--small{
+    padding: 0.65rem 5rem 0.65rem 0.65rem;
+}
+.input--medium{
+    padding: 0.85rem 5rem 0.85rem 0.85rem
+}
+.input--large{
+    padding: 1rem 5rem 1rem 1rem;
+}
+
+.select--small{
+    padding:  0.5rem 5rem 0.5rem 0.5rem;
+}
+.select--medium{
+    padding: 0.75rem 8rem 0.75rem 0.75rem;
+}
+.select--large{
+    padding: 1rem 8rem 1rem 1rem;
+}
